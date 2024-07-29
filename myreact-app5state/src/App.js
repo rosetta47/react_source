@@ -27,6 +27,10 @@ function App() {
    
   }
 
+  // 이벤트 처리 함수 2
+  let [count, setCount] = useState(0);
+
+
 
   return (
     <div className="App">
@@ -49,6 +53,11 @@ function App() {
        <p>state 확인</p>
        <button onClick={dataUpdate2}>jemok2 값 변경</button>
         <hr/>
+       </div>
+       
+       <div>
+        이모티콘 클릭 : <span onClick={
+          () => {setCount(count + 1)}}>😆❤️✌️😜</span>{count}번 클릭! 
        </div>
     </div>
   );
