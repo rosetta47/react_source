@@ -1,0 +1,14 @@
+div {
+  border: 2px solid violet;
+  margin: 5px;
+  padding: 5px;
+  margin-right: 100px;
+
+}
+
+div#super {
+  border: 2px dotted blue;
+  margin: 5px;
+  padding: 5px;
+  margin-right: 100px;
+}
