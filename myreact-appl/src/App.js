@@ -2,6 +2,7 @@
 import React, { Component } from 'react'; // 꼭 import 해야되
 import './App.css';
 import Navdata from './mydir/Navdata';
+import Greeting from './mydir/Greeting';
 
 
 // 클래스 컴포넌트. 조립식 프로그래밍 가능
@@ -35,7 +36,12 @@ function App() {
      <Welcome who='김현정'></Welcome>
      <br/>
      <Navdata msg='출발'></Navdata>
+    <hr/>
+    <Greeting></Greeting>
+
+
     </div>
+    
   );
 }
 

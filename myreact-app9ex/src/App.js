@@ -3,6 +3,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Test from "./exam/MyTest";
 import Gugu from "./exam/Gugu";
 import Jikwoninfo from "./exam/Jikwoninfo";
+
+
 import './App.css';
 
 function App() {
@@ -21,8 +23,10 @@ function App() {
         <Route path="/gugu" element={<Gugu/>}></Route>
         <Route path="/info" element={<Jikwoninfo/>}></Route>
     </Routes>
+    
     </div>
     </Router>
+
   );
 }
 

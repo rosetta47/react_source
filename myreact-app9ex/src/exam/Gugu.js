@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const Gugu = () => {
-  const [text, setText] = useState(2);
+  const [text, setText] = useState(3);
   const su = [];
 
   for (let i = 0; i < 9; i++) {
